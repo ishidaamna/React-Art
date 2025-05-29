@@ -48,7 +48,12 @@ export default function Header() {
   return (
     <StyledHeader>
       <img src={logo} alt="A canvas" />
-      <h1>ReactArt</h1>
+      <h1
+        className="text-4
+      
+      xl font-semibold tracking-widest text-center uppercase text-amber-800 font-title">
+        ReactArt
+      </h1>
       <p className={classes.paragraph}>A community of artists and art-lovers.</p>
     </StyledHeader>
   );
